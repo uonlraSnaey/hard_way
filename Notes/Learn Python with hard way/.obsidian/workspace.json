@@ -4,15 +4,37 @@
     "type": "split",
     "children": [
       {
+        "id": "f4ce6029003272b4",
+        "type": "tabs",
+        "dimension": 23.61275088547816,
+        "children": [
+          {
+            "id": "71bd34f476cc6929",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "办公法学Python3（Learn Python3 The Hard Way 中文版）.md"
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "0d87848aba483d57",
         "type": "tabs",
+        "dimension": 76.38724911452184,
         "children": [
           {
             "id": "486e2e4c314c47ba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "办公法学Python3（Learn Python3 The Hard Way 中文版）.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -61,11 +83,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1756222674f7508a",
@@ -81,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "办公法学Python3（Learn Python3 The Hard Way 中文版）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "办公法学Python3（Learn Python3 The Hard Way 中文版）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,17 +134,9 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true
               }
-            }
-          },
-          {
-            "id": "71bd34f476cc6929",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
             }
           }
         ]
@@ -134,12 +152,14 @@
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
+      "templates:插入模板": true,
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b06e40db780e42cb",
+  "active": "486e2e4c314c47ba",
   "lastOpenFiles": [
+    "办公法学Python3（Learn Python3 The Hard Way 中文版）.md",
+    "未命名.md",
     "未命名"
   ]
 }
