@@ -1,3 +1,7 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "theme": "system",
+  "baseFontSize": 16,
+  "nativeMenus": true,
+  "cssTheme": "Minimal"
 }
