@@ -14,7 +14,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "办公法学Python3（Learn Python3 The Hard Way 中文版）.md"
+                "file": "mistake.md"
               }
             }
           }
@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "办公法学Python3（Learn Python3 The Hard Way 中文版）.md",
+                "file": "mistake.md",
                 "mode": "source",
                 "source": false
               }
@@ -83,8 +83,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -105,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "办公法学Python3（Learn Python3 The Hard Way 中文版）.md",
+                "file": "mistake.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "办公法学Python3（Learn Python3 The Hard Way 中文版）.md",
+                "file": "mistake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,11 +138,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 370.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -159,6 +159,7 @@
   "active": "486e2e4c314c47ba",
   "lastOpenFiles": [
     "办公法学Python3（Learn Python3 The Hard Way 中文版）.md",
+    "mistake.md",
     "未命名.md",
     "未命名"
   ]
