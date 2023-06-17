@@ -1,5 +1,5 @@
 #定义字符串格式
-formatter = "{} {} {}"
+formatter = "{} {} {} {}"
 
 # 使用整数作为参数格式化字符串
 print(formatter.format(1,2,3,4))
