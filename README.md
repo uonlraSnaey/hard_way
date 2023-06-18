@@ -1,2 +1,4 @@
 # hard_way
-python daily study
+Python daily study
+
+# python is the best language in the world /nvn
