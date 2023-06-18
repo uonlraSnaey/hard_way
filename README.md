@@ -1,4 +1,4 @@
-# hard_way
+# HARD_WAY
 
 这是关于这本书-- ["Learn python3 the hard way"](https://learnpythonthehardway.org/python3/) 的学习笔记
 
