@@ -1,28 +1,26 @@
-from sys import argv #导入 'sys' 模板中的 'argv' 对象
-#argv 是一个命令行参数列表，它包含了传递给python脚本的命令行参数
-script, user_name,mac_name= argv
+from sys import argv
+print("在命令行（终端）输入 'python ex14.py your_user_name' 来运行程序 ")
+script, user_name = argv
 
-prompt = ">>>"
+prompt = "> "
 
-print(f"Hi {user_name},I\'m the {script} script")
-print("I'd like to ask you few questions")
-print(f"my name is {mac_name}")
-
-print(f"Do you like me {user_name}")
+print(f"Hi {user_name}, I'm the {script} script.")
+print("I'd like to ask you a few question")
+print(f"Do you loke me {user_name} ?")
 likes = input(prompt)
 
 print(f"where do you live {user_name}")
 lives = input(prompt)
 
-print("waht kind of computer ddo you have?")
+print("what kind of computer do you like?")
 computer = input(prompt)
 
-print("what is your favourite food")
-food = input(prompt)
-
 print(f"""
-Alright, so you said {likes} about liking me .
-You are live in {lives}. Not sure where that is.
-And you have {computer} computer.
-Your favour food is {food}\nnice.
+Alright, so you said {likes} about liking me.
+You live in {lives}. Not sure where that is. 
+And you have a {computer} computer.
+Nice.
 """)
+# 1、Zork I是电子游戏历史上最早的一款文字冒险游戏，是Colossal Cave Adventure的一个早期后继
+# 2、修改第三行input() 括号内的内容 如：prompt = input(>>>)
+# 3、 I'm sure
