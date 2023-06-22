@@ -119,6 +119,16 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "5b1e7352306f1b7f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "plan.md"
+              }
+            }
           }
         ],
         "currentTab": 2
