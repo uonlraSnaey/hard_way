@@ -41,3 +41,5 @@ print_a_line(current_line, current_file)
 # 将当前行号增加 1，调用函数 print_a_line() 打印当前行内容
 current_line = current_line + 1
 print_a_line(current_line, current_file)
+
+#seek() 函数是用于在文件对象中移动文件指针的方法
