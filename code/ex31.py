@@ -1,6 +1,6 @@
 # This program prompts the user with a choice between two doors.
 print("""You enter a dark room with two doors.
-Do you go through door #1 or door #2?""")
+Do you go through door #1 #2 or door #3?""")
 
 # The user's input is stored in the variable 'door'.
 door = input("> ")
