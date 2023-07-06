@@ -21,10 +21,22 @@ five = 10 - 2 + 3 - 6
 print(f"This should be five : {five}")
 
 
-def secret_formula(started):
+""" def secret_formula(started):
     jelly_beans = started * 500
     jars = jelly_beans / 1000
     crates = jars / 100
+    return jelly_beans, jars, crates
+ """
+def secret_formula(started):
+    # calculate the amount of jelly beans
+    jelly_beans = started * 500
+
+    # calculate the number of jars needed
+    jars = jelly_beans // 1000
+
+    # calculate the number of crates needed
+    crates = jars // 100
+
     return jelly_beans, jars, crates
 
 start_point = 10000
