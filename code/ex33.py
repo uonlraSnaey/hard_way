@@ -1,38 +1,62 @@
-# Initialize a variable to 0
-i = 0
+i  = 0
+number = []
 
-# Initialize an empty list
-numbers = []
-
-# Execute a loop as long as the value of i is less than 6
-while i < 10:
-    # Print a message with the current value of i
+while i < 6:
     print(f"At the top i is {i}")
+    number.append(i)
 
-    # Add the current value of i to the list
-    numbers.append(i)
-
-    # Increment the value of i by 1
-    i = i + 2
-
-    # Print the current state of the numbers list
-    print("Numbers new: ", numbers)
-
-    # Print a message with the current value of i
+    i = i + 1
+    print("Number now:",number)
     print(f"At the bottom i is {i}")
 
-# Print a message
-print("The numbers:")
+print("The number:")
 
-# Iterate through the numbers list and print each element
-for num in numbers:
+for num in number:
     print(num)
-print("自定义函数调用numebrs list")
-def create_number_list():
-    numbers = []
-    for i in range(0, 10):
-        numbers.append(i)
-    return numbers
 
-my_number = create_number_list()
-print(my_number)
+""" 
+def while_loop(n)
+i = 0
+number = []
+
+while i < n:
+    print(f"At the top i is {i}")
+    number.append(i)
+
+    i = i + 1
+    print("Number now:",number)
+    print(f"At the bottom i is {i}")
+
+print("The number:")
+
+for num in number:
+    print(num) 
+    
+while_loop(6)
+print("----------")
+while_loop(5)
+    """
+
+'''
+def for_loop(n):
+    number = []
+
+    for i in range(n):
+        print(f"At the top i is {i}")
+        number.append(i)
+
+        print("Number now:", number)
+        print(f"At the bottom i is {i + 1}")
+
+    print("The numbers:")
+
+    for num in number:
+        print(num)
+
+# 调用函数并传入不同的数值进行测试
+for_loop(3)
+print("------------------")
+for_loop(5)
+
+#没有保留增加值(i = i + 1)
+'''
