@@ -27,3 +27,8 @@ for i in range(0, 6):#Loop through 0 to 5
 #now we can print them out too.
 for i in elements:
     print(f"Element was: {i}")
+
+#line 22: 
+""" elements = [i for i in range(0, 6)]
+    print("Adding", elements, "to the list.")
+"""
