@@ -8,4 +8,4 @@ Python daily study
 
 # python is the best language in the world 🤗🤗🤗
 
-没有结尾分号，这不薄纱C 和 C++?😋
+nvn
