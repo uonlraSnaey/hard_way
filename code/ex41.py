@@ -5,7 +5,7 @@ WORD_URL = "http://learncodethehardway.org/words.txt"
 
 WORDS = []
 
-PHPASES = {
+PHRASES = {
     "class %%%(%%):":
         "Make a class named %% that is-a %%%.",
     "class %%%(object):\n\tdef __init__(self, ***)" :
@@ -51,7 +51,7 @@ def convert(snippet, phrase):
 try:
     while True:
         snippets = list(PHRASES.keys())
-        randon.shuffle(snippetss)
+        random.shuffle(snippets)
 
         for snippet in snippets:
             phrase = PHRASES[snippet]
