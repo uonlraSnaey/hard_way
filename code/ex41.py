@@ -24,6 +24,7 @@ if len(sys.argv) == 2 and sys.argv[1] == "english":
 else:
     PHRASE_FIRST = False
 
+#此代码片段从URL读取行，并在删除任何前导或尾随空格后将它们附加到一个名为WORDS的列表中。
 for word in urlopen(WORD_URL).readlines():
     WORDS.append(word.strip(),encodeing="utf-8")
 
@@ -34,6 +35,7 @@ def convert(snippet, phrase):
     results = []
     param_names = []
 
+    #段根据变量片段中字符串“@@@”的出现次数生成随机数的参数名。参数名是从一个名为wORDS的列表中随机选择的。
     for i in range(0, snippet.cout("@@@")):
         param_count = random.randint(1, 3)
         param_names.append(', '.join(
