@@ -23,7 +23,6 @@ if len(sys.argv) == 2 and sys.argv[1] == "english":
     PHRASE_FIRST = True
 else:
     PHRASE_FIRST = False
-
 #此代码片段从URL读取行，并在删除任何前导或尾随空格后将它们附加到一个名为WORDS的列表中。
 for word in urlopen(WORD_URL).readlines():
     WORDS.append(word.strip(),encodeing="utf-8")
